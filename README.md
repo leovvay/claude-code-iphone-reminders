@@ -19,8 +19,32 @@ No third-party services. No API keys. No accounts. Just Apple.
 
 ## Installation
 
+### Option A: Plugin (recommended)
+
 ```bash
 claude plugin add github:leovvay/claude-code-iphone-reminders
+```
+
+### Option B: Manual hook
+
+Add this to your `~/.claude/settings.json`:
+
+```json
+{
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/path/to/claude-code-iphone-reminders/hooks/send-reminder.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
 ```
 
 ## Cleanup
@@ -38,6 +62,8 @@ Your iPhone will show a Reminders notification like:
 ```bash
 claude plugin remove claude-code-iphone-reminders
 ```
+
+Or remove the hook from `~/.claude/settings.json` if installed manually.
 
 ## License
 
