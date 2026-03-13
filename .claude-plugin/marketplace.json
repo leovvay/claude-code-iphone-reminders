@@ -1,0 +1,17 @@
+{
+  "name": "leovvay-plugins",
+  "owner": {
+    "name": "leovvay"
+  },
+  "plugins": [
+    {
+      "name": "claude-code-iphone-reminders",
+      "source": {
+        "source": "github",
+        "repo": "leovvay/claude-code-iphone-reminders"
+      },
+      "description": "Get iPhone notifications when Claude Code needs your input — zero dependencies, pure Apple ecosystem via iCloud Reminders",
+      "version": "1.0.0"
+    }
+  ]
+}
