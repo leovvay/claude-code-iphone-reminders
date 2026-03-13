@@ -21,12 +21,19 @@ No third-party services. No API keys. No accounts. Just Apple.
 
 ### Option A: Plugin (recommended)
 
-Inside a Claude Code session, run:
+Inside a Claude Code session, run these two commands in order:
 
 ```
 /plugin marketplace add leovvay/claude-code-iphone-reminders
+```
+
+Then:
+
+```
 /plugin install claude-code-iphone-reminders
 ```
+
+> **Note:** You must add the marketplace first — this tells Claude Code where to find the plugin.
 
 ### Option B: Manual hook
 
