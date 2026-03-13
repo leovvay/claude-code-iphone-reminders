@@ -1,0 +1,12 @@
+{
+  "name": "claude-code-iphone-reminders",
+  "description": "Get iPhone notifications when Claude Code needs your input — zero dependencies, pure Apple ecosystem via iCloud Reminders sync",
+  "version": "1.0.0",
+  "author": {
+    "name": "leovvay"
+  },
+  "homepage": "https://github.com/leovvay/claude-code-iphone-reminders",
+  "repository": "https://github.com/leovvay/claude-code-iphone-reminders",
+  "license": "MIT",
+  "keywords": ["notifications", "iphone", "macos", "reminders", "icloud", "apple"]
+}
